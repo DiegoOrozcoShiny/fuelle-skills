@@ -1,0 +1,13 @@
+{
+  "name": "fuelle-studio",
+  "owner": { "name": "Fuelle Studio" },
+  "metadata": { "description": "Plugins y skills de Fuelle Studio", "version": "1.0.0" },
+  "plugins": [
+    {
+      "name": "fuelle-video",
+      "source": "./plugins/fuelle-video",
+      "description": "Agente y skill para producir videos verticales con la identidad brutalista de Fuelle Studio.",
+      "version": "1.0.0"
+    }
+  ]
+}

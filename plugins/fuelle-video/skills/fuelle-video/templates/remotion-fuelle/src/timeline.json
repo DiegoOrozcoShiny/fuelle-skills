@@ -1,0 +1,18 @@
+{
+  "title": "Ejemplo Fuelle",
+  "fps": 30,
+  "duration": 8,
+  "voice": "audio/voz.mp3",
+  "mix": "",
+  "subtitles": [
+    { "start": 0.1, "end": 1.6, "text": "Por más que lo intentas," },
+    { "start": 1.6, "end": 3.0, "text": "tus ventas no suben." },
+    { "start": 3.2, "end": 5.4, "text": "Agencias, influencers, cursos..." },
+    { "start": 5.6, "end": 7.8, "text": "Nosotros te acompañamos." }
+  ],
+  "scenes": [
+    { "id": "s1", "start": 0, "end": 3.0, "bg": "dark", "effect": "chart-grow" },
+    { "id": "s2", "start": 3.0, "end": 5.5, "bg": "dark", "effect": "couch-wall" },
+    { "id": "s3", "start": 5.5, "end": 8.0, "bg": "dark", "effect": "glass-type" }
+  ]
+}

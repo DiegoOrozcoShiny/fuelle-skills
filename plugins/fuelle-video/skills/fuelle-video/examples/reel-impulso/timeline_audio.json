@@ -1,0 +1,5 @@
+{"duration":35.0,
+ "music":{"preset":"urgencia","bpm":120,
+   "sections":[{"start":0,"end":10.6,"mood":"problema"},{"start":10.6,"end":12.9,"mood":"pausa"},{"start":12.9,"end":16.6,"mood":"problema"},{"start":16.6,"end":28.4,"mood":"solucion"},{"start":28.4,"end":31.9,"mood":"climax"},{"start":31.9,"end":35,"mood":"cierre"}],
+   "silences":[[12.3,12.9]]},
+ "sfx":[{"t":3.0,"type":"hit"},{"t":3.3,"type":"tock"},{"t":4.2,"type":"tock"},{"t":10.1,"type":"whoosh_up","d":0.5},{"t":12.9,"type":"hit","g":1.2},{"t":22.8,"type":"stamp"},{"t":26.42,"type":"ding"},{"t":29.55,"type":"glass"},{"t":31.9,"type":"hit","g":1.3}]}

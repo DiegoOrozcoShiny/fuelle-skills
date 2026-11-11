@@ -1,0 +1,19 @@
+/* Identidad Fuelle Studio para composiciones HyperFrames (1080×1920) */
+@font-face { font-family: "Sora"; src: url("./fonts/Sora-Variable.ttf") format("truetype"); font-weight: 100 800; }
+@font-face { font-family: "Inter"; src: url("./fonts/Inter-Variable.ttf") format("truetype"); font-weight: 100 900; }
+:root {
+  --carbon: #0F0F0F; --marfil: #F7F3EA; --taupe: #C9B7A7; --naranja: #FF6A00; --azul: #2A5BFF;
+  --gray-dark: #8A8A8A; --gray-light: #6B6B6B;
+  --safe-x0: 80px; --safe-x1: 920px; --safe-y0: 270px; --safe-y1: 1440px;
+  --border: 6px; --hard-shadow: 14px;
+}
+.fuelle-dark { background: var(--carbon); color: var(--marfil); }
+.fuelle-light { background: var(--marfil); color: var(--carbon); }
+.grid-bg { background-image: linear-gradient(#1A1A1A 1px, transparent 1px), linear-gradient(90deg, #1A1A1A 1px, transparent 1px); background-size: 60px 60px; }
+.fuelle-light.grid-bg { background-image: linear-gradient(#E9E2D5 1px, transparent 1px), linear-gradient(90deg, #E9E2D5 1px, transparent 1px); }
+.safe { position: absolute; left: var(--safe-x0); top: var(--safe-y0); width: calc(var(--safe-x1) - var(--safe-x0)); height: calc(var(--safe-y1) - var(--safe-y0)); }
+.giant { font-family: "Sora"; font-weight: 800; line-height: .86; transform: scaleX(.8); transform-origin: left top; white-space: nowrap; letter-spacing: -.01em; }
+.giant .accent { color: var(--naranja); }
+.label { font-family: "Inter"; font-weight: 600; font-size: 24px; letter-spacing: 3px; text-transform: uppercase; }
+.brut { border: var(--border) solid var(--carbon); box-shadow: var(--hard-shadow) var(--hard-shadow) 0 var(--carbon); border-radius: 0; }
+.fuelle-dark .brut { box-shadow: var(--hard-shadow) var(--hard-shadow) 0 var(--taupe); }
