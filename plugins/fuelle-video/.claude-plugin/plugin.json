@@ -1,0 +1,7 @@
+{
+  "name": "fuelle-video",
+  "version": "1.0.0",
+  "description": "Director de motion graphics de Fuelle Studio: guion → voz ElevenLabs → storyboard aprobado → video vertical brutalista con Remotion, HyperFrames, Python y Node.",
+  "author": { "name": "Fuelle Studio" },
+  "keywords": ["video", "reels", "tiktok", "remotion", "hyperframes", "motion-graphics", "fuelle"]
+}
